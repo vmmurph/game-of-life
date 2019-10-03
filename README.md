@@ -6,3 +6,5 @@ This is a simple application/visualization for Conway's Game of Life. It's reall
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 This application allows the user to save and load states, step through an iteration, or run continuously.
+
+Hosted version here: https://vmmurph.github.io/game-of-life/game-of-life.html

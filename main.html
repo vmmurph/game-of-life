@@ -32,8 +32,16 @@
         
         <script>
 
-            const gridWidth = 50
-            const gridHeight = 25
+            // Function to get URL parameters
+            function getUrlParameter(name) {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(name);
+            }
+
+            // Get width and height from URL parameters or use defaults
+            const gridWidth = parseInt(getUrlParameter('width')) || 50;
+            const gridHeight = parseInt(getUrlParameter('height')) || 25;
+
             const cellSize = 20
 
             let margin = {
